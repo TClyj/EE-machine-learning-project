@@ -57,12 +57,56 @@ For question four, the process is similar to question three but changing the tra
 ## Computational Results:
 In this section, we present the computational results of our analysis. 
 For question one, we first discuss the results of the least-squares error model applied to the sample data set. 
+
+![ad36c5913e4099f886f21005bf8f56e](https://user-images.githubusercontent.com/126134377/231071622-a0c4d021-a876-4aac-8bdb-471aebdc2a55.png)
+
+By applying the LSE and provided model with given data sets, we can see that we get the possible parameter values that fit in this model from our code and the red line match the trend of data sets, which means LSE works as our expection.
+
 For question two, we then present the results of generating the 2D error landscape and analyze the number of minima found. 
+Because there are 6 possible combination for 4 variables, so we output 6 graphs in pcolor in the order of AB fix, AC fix, AD fix, BC fix, BD fix, CD fix. 
+
+      ![c51982374c3659268cd9832b0738c9a](https://user-images.githubusercontent.com/126134377/231072574-8d3dddce-3862-4c3a-a9d0-ed949e826fcc.png)
+![ff2559a083223374de6282c089b3d72](https://user-images.githubusercontent.com/126134377/231072697-ac6df2e7-d6da-4206-962a-3ba2676de813.png)
+![af749c4154060093c369567f95494ab](https://user-images.githubusercontent.com/126134377/231072734-ca6fa781-4f3d-4361-8ae6-ab1579d4e5f7.png)
+![23214a80331b41ff9b7639dd182be15](https://user-images.githubusercontent.com/126134377/231072770-ad48cc08-fd15-4710-95d4-f45936612b68.png)
+![87db3dce220fb5bc3cd48e8fabf284c](https://user-images.githubusercontent.com/126134377/231072782-65eac8ce-0762-4b9d-9532-66588d5a4b31.png)
+![8ead8b4856171932ffb3c6690070ce1](https://user-images.githubusercontent.com/126134377/231072791-f412b90a-c28e-425c-a594-8561dc529511.png)
+
+In the 2D loss (error) landscape, the color intensity represents the magnitude of the loss function, where darker colors indicate higher losses and lighter colors indicate lower losses. In this question the dark color regions will represent the minima for different fix situation. By comparing the area of the dark regions, we can see that while A and B is not fixed, our result will be very unstable. For the parameter that link to higher degree variable, more influence will appear if we change its value during our training process.
+     
 Finally, in question three and four, we compare the least-square error results for fitting a line, parabola, and 19th degree polynomial over training and test data sets.
+
+This is the error number and graph for question three:
+* Training errors
+* Line: 2.24
+* Parabola: 2.13
+* 19th degree polynomial: 0.03
+* Test errors
+* Line: 3.36
+* Parabola: 8.71
+* 19th degree polynomial: 28617752784.43
+
+![6546f3a6f6fe4360738b05fb9e4e3cf](https://user-images.githubusercontent.com/126134377/231072821-78483e66-cde0-4fbe-8982-f846ca51d8a5.png)
+
+Since we are using np.polyfit to find the best fitting line, when the degree is too high, the result will be pretty extreme and poorly conditioned. So here we can see that in the situation of 19th degree polynomial the line fit the training data well but have pretty large error in test data sets. Other than that, line and parabola fit in the training data (error is low) but can't fit in test data very well. The larger degree the larger error.
+
+This is the error number and graph for question four:
+* Training errors
+* Line: 1.81
+* Parabola: 1.81
+* 19th degree polynomial: 0.22
+* Test errors
+* Line: 2.95
+* Parabola: 2.94
+* 19th degree polynomial: 81.93
+
+![6af07f13d84cc886640f4f4fce38de4](https://user-images.githubusercontent.com/126134377/231072845-3b693c89-4d76-4ef9-a021-e8fc792eea91.png)
+
+Similar to what we get in question three, the 19th degree polynomial is extreme. However, in question four we change our training data and find that the overall error on test data in smaller than what in previous question. The error for 19th degree polynomial is much smaller due to its extreme property. By comparing, we can see that with a better initial guess (training data), our output solution will be better and less error.
 
 ## Summary and Conclusions:
 We investigated the use of least-squares error for modeling and optimizing parameters in Python.
 We presented an algorithm for implementing least-squares error and demonstrated its application on a sample data set.
 Using the results of the least-squares error model, we generated a 2D error landscape and analyzed the number of minima found.
-Finally, we compared the least-square error results for fitting a line, parabola, and 19th degree polynomial over training and test data sets.
+Finally, we compared the least-square error results for fitting a line, parabola, and 19th degree polynomial over different training and test data sets.
 Our results highlight the usefulness of least-squares error for modeling and optimizing parameters in a wide range of applications.
