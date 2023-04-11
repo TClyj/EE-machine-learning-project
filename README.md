@@ -56,6 +56,7 @@ For question four, the process is similar to question three but changing the tra
 
 ## Computational Results:
 In this section, we present the computational results of our analysis. 
+
 For question one, we first discuss the results of the least-squares error model applied to the sample data set. 
 
 ![ad36c5913e4099f886f21005bf8f56e](https://user-images.githubusercontent.com/126134377/231071622-a0c4d021-a876-4aac-8bdb-471aebdc2a55.png)
@@ -103,6 +104,8 @@ This is the error number and graph for question four:
 ![6af07f13d84cc886640f4f4fce38de4](https://user-images.githubusercontent.com/126134377/231072845-3b693c89-4d76-4ef9-a021-e8fc792eea91.png)
 
 Similar to what we get in question three, the 19th degree polynomial is extreme. However, in question four we change our training data and find that the overall error on test data in smaller than what in previous question. The error for 19th degree polynomial is much smaller due to its extreme property. By comparing, we can see that with a better initial guess (training data), our output solution will be better and less error.
+
+Also, one intresting things about question four is the error for line and parabola is almost same in training data sets, which means they are almost overlap with each other if they are in the same graph, so I split them into two graphs.
 
 ## Summary and Conclusions:
 We investigated the use of least-squares error for modeling and optimizing parameters in Python.
