@@ -177,7 +177,7 @@ plt.show()
 
 Based on the process in development part, we get the following output:
 
-
+![f8054b4ba0605eefb673bd15e8ace41](https://user-images.githubusercontent.com/126134377/232959554-23a52888-bc5b-469c-811b-2331f129af86.png)
 
 From the image, we can determine the similarity between all these 100 images. In the graph, larger numbers represent a higher degree of correlation between images.
 
@@ -185,7 +185,7 @@ From the image, we can determine the similarity between all these 100 images. In
 
 Based on the process in development part, we get the following output:
 
-
+![55f2db55f8e9f588890a26cb5648a97](https://user-images.githubusercontent.com/126134377/232959583-5839b865-b95b-4329-8529-c3419439095f.png)
 
 From the graph we can see that most correlated images are image 86 and 88, which match the location where brighter in the pcolor graph in problem a. Same for the uncorrelated images.
 
@@ -193,7 +193,7 @@ From the graph we can see that most correlated images are image 86 and 88, which
 
 Based on the process in development part, we get the following output:
 
-
+![c9e9c8715ed4f7739481b29a4e7e07c](https://user-images.githubusercontent.com/126134377/232959610-9e0f43b6-15fb-4d32-89bc-a7cae77bb13c.png)
 
 Although this graph is on a smaller scale than the one in part a, we can still see a similar data distribution, with the upper right having the brightest color.
 
@@ -201,13 +201,17 @@ Although this graph is on a smaller scale than the one in part a, we can still s
 
 Based on the process in development part, we get the following output:
 
+![757ffe6e45384ea2ef1b1f2f6cc8066](https://user-images.githubusercontent.com/126134377/232959634-8df15260-9c41-4ad2-9e15-db1a6bbd4867.png)
 
+First six eigenvectors with the largest magnitude eigenvalues of the matrix Y can be used to represent the most significant directions of variation in the data. These directions can capture the most important features and patterns in the images, which work similar with the SVD in part e.
 
 ### Problem e & f
 
 Based on the process in development part, we get the following output:
 
+![9db9509b651bac5b2f93543fe543521](https://user-images.githubusercontent.com/126134377/232960041-4ad86501-83f9-4995-a485-293e6a1de803.png)
 
+* Norm of difference of their absolute values: **6.974796533878701e-16**
 
 By computing the norm of the difference between the absolute values of v1 and u1, we measure how similar or dissimilar the two vectors are in terms of the patterns they capture. If the norm is close to zero, it means the two vectors are very similar, indicating that both eigenvectors and SVD modes capture the same important patterns in the data. On the other hand, if the norm is larger, it means that there is a noticeable difference between the patterns captured by v1 and u1.
 
@@ -217,7 +221,7 @@ Here we can see the norm is pretty small which means both eigenvectors and SVD m
 
 Based on the process in development part, we get the following output:
 
-
+![c57d953e7800a1738473a6f09cddfd9](https://user-images.githubusercontent.com/126134377/232960105-c6accb98-e472-40f9-adf6-1354aed65a1a.png)
 
 Each percentage value indicates the importance of the corresponding SVD mode in capturing the variance in the dataset. A higher percentage means that the specific SVD mode captures more information and contributes more to the representation of the data.
 
