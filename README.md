@@ -1,6 +1,6 @@
 # Analysis of Face Images Using Correlation Matrix and Singular Value Decomposition
 
-Author: 
+Author: Yijia Lu
 
 ### Abstract: 
 
@@ -178,11 +178,14 @@ plt.show()
 Based on the process in development part, we get the following output:
 
 
+
 From the image, we can determine the similarity between all these 100 images. In the graph, larger numbers represent a higher degree of correlation between images.
 
 ### Problem b
 
 Based on the process in development part, we get the following output:
+
+
 
 From the graph we can see that most correlated images are image 86 and 88, which match the location where brighter in the pcolor graph in problem a. Same for the uncorrelated images.
 
@@ -190,16 +193,36 @@ From the graph we can see that most correlated images are image 86 and 88, which
 
 Based on the process in development part, we get the following output:
 
+
+
 Although this graph is on a smaller scale than the one in part a, we can still see a similar data distribution, with the upper right having the brightest color.
 
 ### Problem d
 
 Based on the process in development part, we get the following output:
 
+
+
 ### Problem e & f
+
+Based on the process in development part, we get the following output:
+
+
+
+By computing the norm of the difference between the absolute values of v1 and u1, we measure how similar or dissimilar the two vectors are in terms of the patterns they capture. If the norm is close to zero, it means the two vectors are very similar, indicating that both eigenvectors and SVD modes capture the same important patterns in the data. On the other hand, if the norm is larger, it means that there is a noticeable difference between the patterns captured by v1 and u1.
+
+Here we can see the norm is pretty small which means both eigenvectors and SVD modes capture the same important patterns in the data.
 
 ### Problem g
 
+Based on the process in development part, we get the following output:
+
+
+
+Each percentage value indicates the importance of the corresponding SVD mode in capturing the variance in the dataset. A higher percentage means that the specific SVD mode captures more information and contributes more to the representation of the data.
+
+The six faces are draw based on U, which represent the principal component directions or basis vectors in the original space of the matrix X, and reshaped to 32x32. Using U to draw the image ensures that we have the correct image in the correct order based on the first 6 SVD modes.
+
 ## Summary and Conclusions
 
-In conclusion, our analysis demonstrates the potential of correlation matrix and Singular Value Decomposition in understanding the relationships between images in a dataset, capturing the most important features and patterns, and representing the data more efficiently. This study highlights the importance of SVD in various applications, such as dimensionality reduction, feature extraction, and understanding the structure of the data.
+In conclusion, our analysis demonstrates the potential of correlation matrix and Singular Value Decomposition in understanding the relationships between images in a dataset, capturing the most important features and patterns, and representing the data more efficiently. This study highlights the importance of SVD in various applications, such as dimensionality reduction, feature extraction, and understanding the structure of the data. (Some of the summary are also included in result part)
