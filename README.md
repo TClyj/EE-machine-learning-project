@@ -3,3 +3,4 @@ This an EE machine learning project folder which contain cool projects or homwwo
 
 * HW 1 -- Branches/Least-square-error
 * HW 2 -- Branches/Image_deconstruction
+* HW 3 -- Branches/Class
