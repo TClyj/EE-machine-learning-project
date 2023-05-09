@@ -8,3 +8,4 @@ Project Owner: Yijia Lu
 * HW 1 -- Branches/Least-square-error
 * HW 2 -- Branches/Image_deconstruction
 * HW 3 -- Branches/Classifier-method-in-machine-learning
+* HW 4 -- Branches/Neural-network-modeling
