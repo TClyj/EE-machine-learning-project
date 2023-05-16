@@ -9,3 +9,4 @@ Project Owner: Yijia Lu
 * HW 2 -- Branches/Image_deconstruction
 * HW 3 -- Branches/Classifier-method-in-machine-learning
 * HW 4 -- Branches/Neural-network-modeling
+* HW 5 -- Branches/Dynamics-of-the-Lorenz-System
