@@ -10,3 +10,4 @@ Project Owner: Yijia Lu
 * HW 3 -- Branches/Classifier-method-in-machine-learning
 * HW 4 -- Branches/Neural-network-modeling
 * HW 5 -- Branches/Dynamics-of-the-Lorenz-System
+* HW 6 -- Branches/Performance-of-SHRED-models
