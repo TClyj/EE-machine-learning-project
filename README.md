@@ -5,9 +5,10 @@ Instructor: J. Nathan Kutz
 
 Project Owner: Yijia Lu
 
-* HW 1 -- Branches/Least-square-error
-* HW 2 -- Branches/Image_deconstruction
-* HW 3 -- Branches/Classifier-method-in-machine-learning
-* HW 4 -- Branches/Neural-network-modeling
-* HW 5 -- Branches/Dynamics-of-the-Lorenz-System
-* HW 6 -- Branches/Performance-of-SHRED-models
+* Step 1 -- Branches/Least-square-error
+* Step 2 -- Branches/Image_deconstruction
+* Step 3 -- Branches/Classifier-method-in-machine-learning
+* Step 4 -- Branches/Neural-network-modeling
+* Step 5 -- Branches/Dynamics-of-the-Lorenz-System
+* Step 6 -- Branches/Performance-of-SHRED-models
+* Step 7 -- Branches/Gluttonous-Snake-Game
